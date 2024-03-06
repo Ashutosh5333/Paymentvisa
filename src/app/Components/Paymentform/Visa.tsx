@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Visa = () => {
@@ -20,7 +21,10 @@ const Visa = () => {
                 />
               </div>
             </div>
-            <img src="/assets/Visaimag.svg" alt="Visa" className="ml-2" />
+            <Image src="/assets/Visaimag.svg" alt="Visa"
+               width={100}
+               height={100}
+            className="ml-2" />
           </div>
 
          
@@ -47,7 +51,10 @@ const Visa = () => {
                 />
               </div>
             </div>
-            <img src="/assets/Visacard.svg" alt="Visa" className="ml-2" />
+            <Image src="/assets/Visacard.svg" alt="Visa"
+             width={100}
+             height={100}
+            className="ml-2" />
           </div>
 
          
