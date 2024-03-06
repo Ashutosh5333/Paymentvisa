@@ -80,7 +80,7 @@ export const Paymentform = () => {
           </div>
         </div> */}
 
-        <div className="py-2  px-2 sm:px-4 flex item-center justify-center">
+        <div className="py-4  px-2 sm:px-4 flex item-center justify-center">
           <button
             className="border-2  border-[#4C4D4F] px-12 sm:px-20 lg:px-12 rounded-full text-[.6rem] sm:text-sm 
           text-[#777777] py-2  sm:py-4 lg:py-4 text-center font-normal m-auto"
@@ -97,20 +97,20 @@ export const Paymentform = () => {
           of the Company.{" "}
         </p>
 
-        <div className=" px-2 sm:px-4 flex justify-between">
+        <div className=" px-2 sm:px-6 flex justify-between">
           <div
             className=" py-4 flex
          gap-5  flex-row items-center "
           >
             <button
-              className="border-2 bg-[#FFFFFF] px-12 sm:px-20 lg:px-12 rounded-full text-[.6rem] sm:text-sm 
-          text-[#000000] py-2 sm:py-4 lg:py-2 text-center font-normal m-auto"
+              className="border-2 border-[#777777] bg-[#FFFFFF] px-12 sm:px-20 lg:px-14 rounded-full text-[.6rem] sm:text-[.8rem] 
+          text-[#777777] py-2 sm:py-3 lg:py-2 text-center font-normal m-auto"
             >
               Save
             </button>
             <button
-              className=" bg-black   px-4 sm:px-14  lg:px-6 rounded-full text-[.6rem] sm:text-sm 
-          text-[#ffffff] py-2 sm:py-4 lg:py-2 text-center font-normal m-auto"
+              className=" bg-black   px-7 sm:px-12  lg:px-7 rounded-full text-[.5rem] sm:text-[.7rem] 
+          text-[#ffffff] py-3 sm:py-4 lg:py-3 text-center font-normal m-auto"
             >
               Confirm Payment
             </button>
@@ -118,7 +118,7 @@ export const Paymentform = () => {
           <div> </div>
         </div>
 
-        <div className="lg:mt-20" />
+        <div className="lg:mt-10" />
       </div>
     </>
   );

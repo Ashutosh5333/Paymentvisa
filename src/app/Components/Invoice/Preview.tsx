@@ -28,7 +28,7 @@ const Preview = () => {
           </div>
         </div>
 
-        <div className="border-2 px-1 pt-4 border-gray-300 rounded-xl">
+        <div className="border-2 py-8 px-1 pt-4 border-gray-300 rounded-xl">
           <div className="py-4 lg:py-2 px-2">
             <Image
               src={"/assets/Skinclub.svg"}
@@ -94,7 +94,7 @@ const Preview = () => {
           </div>
         </div>
         
-        <div className="lg:mt-20"/>
+        <div className="lg:mt-[54%]"/>
 
         {/* <div className=" py-10  lg:mt-[53%] flex
          gap-5  flex-col lg:flex-row items-center ">
