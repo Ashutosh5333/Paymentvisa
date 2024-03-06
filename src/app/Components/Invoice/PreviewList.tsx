@@ -25,7 +25,7 @@ const PreviewList = () => {
                 {INVOICE_ROWS.map((row, rowIndex) => (
                   <tr
                     key={rowIndex}
-                    className="font-semibold   text-[.7rem] sm:text[.5rem]  lg:text-[.45rem] bg-[#F8F8F8] px-8 py-4 sm:py-8 lg:py-4 "
+                    className="font-semibold   text-[.7rem] sm:text[.6rem]  lg:text-[.45rem] bg-[#F8F8F8] px-8 py-4 sm:py-8 lg:py-4 "
                   >
                     <td className=" px-1 sm:px-3 py-1 sm:py-2 lg:py-1">{row.name}</td>
                     <td className=" px-1 sm:px-3 py-1 sm:py-2 lg:py-1">{row.Rate}</td>
